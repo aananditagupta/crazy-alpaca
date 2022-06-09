@@ -1,0 +1,2 @@
+function myFunction(){var n=document.getElementById("myTopnav");"navButton"===n.className?n.className+=" responsive":n.className="navButton"}$(".like-btn").on("click",function(){$(this).toggleClass("is-active")}),$(".minus-btn").on("click",function(n){n.preventDefault();var t=$(this).closest("div").find("input"),a=parseInt(t.val());a<=1?a-=1:a=0,t.val(a)}),$(".plus-btn").on("click",function(n){n.preventDefault();var t=$(this).closest("div").find("input"),a=parseInt(t.val());a<=100?a+=1:a=100,t.val(a)});
+//# sourceMappingURL=app.js.map

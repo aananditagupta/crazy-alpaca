@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../../styles/app.css">
+  <script src="../../scripts/app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <meta charset="utf-8" content="width=device-width, initial-scale=1.0" name="viewport">  
+  <title>🛒 Your Basket | 💡 My App</title>
+  <div class="topnav" id="myTopnav">
+    <div><h1> APPS </h1></div>
+    <div class="navButton">
+      <a href="/product" >Products</a>
+      <a href="/news">News</a>
+      <a href="/cart">Cart</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+</head>
+<body>
+  <div class="shopping-cart">
+    <!-- Title -->
+    <div class="title">
+      <h1>
+      Your basket
+      </h1>
+      <p>
+        Items you have added to your basket are shown below. Adjust the quantities or remove items before continuing the purchase
+      </p>
+    </div>
+    
+    <div class="item">
+      <div class="title">
+        <span>Description</span>
+      </div>
+      
+      <div class="title">
+        <span>Price</span>
+      </div>
+
+      <div class="title">
+        <span>Quantity</span>
+      </div>
+
+      <div class="title">
+        <span>Cost</span>
+      </div>
+    </div>
+
+    <!-- Product #1 -->
+    <div class="item">
+      <div class="description">
+        <span>Cotten T-Shirt, medium</span>
+      </div>
+      
+      <div class = "price">
+        <p>£10.99</p>
+      </div>
+      
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">$549</div>
+
+      <div class="buttons">
+        <span class="delete-btn"></span>
+      </div>
+    </div>
+   
+    <!-- Product #2 -->
+    <div class="item">
+      <div class="description">
+        <span>Baseball Cap, one size</span>
+      </div>
+      
+      <div class = "price">
+        <p>£10.99</p>
+      </div>
+
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">$870</div>
+
+      <div class="buttons">
+        <span class="delete-btn"></span>
+      </div>
+    </div>
+   
+    <!-- Product #3 -->
+    <div class="item">
+      <div class="description">
+        <span>Shorts, medium</span>
+      </div>
+      
+      <div class = "price">
+        <p>£10.99</p>
+      </div>
+
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">$349</div>
+
+      <div class="buttons">
+        <span class="delete-btn"></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
