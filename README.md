@@ -1,9 +1,5 @@
 # My Application
 
-A basic structure of a web application for web developers to develop upon and show their skills.
-
-### Please DO NOT mention any Company or Individual names in code, when forking, committing, branching, developing or completing the exercise. 
-
 # Dependancies
 > node ^10.15.3
 
